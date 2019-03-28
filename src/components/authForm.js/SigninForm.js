@@ -15,8 +15,6 @@ class SigninForm extends Component {
 
     console.log(url);
     fetch(url, {
-      mode: "cors",
-      credentials: "include",
       method: "POST",
       headers: {
         "Content-type": "application/json"
